@@ -324,3 +324,39 @@ td {
   .date-item.highlight .date-label { color: var(--green); }
   .date-item.highlight .date-value { color: var(--green); }
  
+
+  /* ── Poster clusters ── */
+  .clusters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 1.25rem;
+  }
+ 
+  @media (max-width: 500px) { .clusters { grid-template-columns: 1fr; } }
+ 
+  .cluster-card {
+    border-left: 3px solid var(--green-mid);
+    padding: 1rem 1.25rem;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    border-radius: 0 6px 6px 0;
+  }
+ 
+  .cluster-label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+  }
+ 
+  .cluster-name {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--text);
+  }
+
