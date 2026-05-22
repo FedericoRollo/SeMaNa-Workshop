@@ -360,3 +360,38 @@ td {
     color: var(--text);
   }
 
+
+  /* ── CTA block ── */
+  .cta-block {
+    background: #0077c2;
+    border-radius: 8px;
+    padding: 2.5rem;
+    /* color: #00ff44; */
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+ 
+  .cta-block h2 {
+    color: #fff;
+  }
+ 
+  .cta-block p {
+    color: rgba(255,255,255,0.8);
+  }
+ 
+  .cta-btn {
+    display: inline-block;
+    background:  #03446c;
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: 14px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: opacity 0.2s;
+  }
+ 
+  .cta-btn:hover { opacity: 0.9; }
+
+
