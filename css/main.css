@@ -395,3 +395,8 @@ td {
   .cta-btn:hover { opacity: 0.9; }
 
 
+  .lista-due-colonne {
+  column-count: 2;       /* Divide la lista in 2 colonne */
+  column-gap: 20px;      /* Spazio tra le due colonne */
+  list-style-position: inside; /* Mantiene i pallini ben allineati */
+}
