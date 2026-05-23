@@ -5,16 +5,28 @@ body
 }
 
 header {
-  background-color: #0077c2;
-  /* background-image: url(../images/title_background.png);
+  /* background-color: #0077c2; */
+  background-image: url(../images/semana_hero_background.svg);
   background-size: cover;          
   background-position: center;    
-  background-repeat: no-repeat;     */
+  background-repeat: no-repeat;    
   color: white;
   padding: 2rem 1rem;
   text-align: center;
   z-index: 0;
   position: relative;
+}
+
+header h1,
+header h2,
+header h3 {
+  background-color: rgba(0, 0, 0, 0.55);
+  display: inline;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  line-height: 1.5; 
 }
 
 
