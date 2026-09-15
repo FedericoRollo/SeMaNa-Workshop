@@ -381,6 +381,8 @@ td {
     /* color: #00ff44; */
     text-align: center;
     margin-bottom: 3rem;
+    max-width: 1000px;
+    margin: 0 auto; 
   }
  
   .cta-block h2 {
