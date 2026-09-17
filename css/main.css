@@ -414,3 +414,50 @@ td {
   column-gap: 20px;      /* Spazio tra le due colonne */
   list-style-position: inside; /* Mantiene i pallini ben allineati */
 }
+
+#accepted-papers {
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.paper-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Stile del titolo con il link incorporato */
+.paper-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+}
+
+.paper-title a {
+  color: #0056b3; /* Colore blu accademico classico */
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+/* Effetto Hover quando si passa sopra con il mouse */
+.paper-title a:hover {
+  color: #003d80;
+  text-decoration: underline; /* Sottolinea al passaggio del mouse */
+}
+
+.paper-authors {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+  margin: 0;
+}
